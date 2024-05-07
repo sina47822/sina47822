@@ -340,3 +340,8 @@ ul.d-flex.align-items-center{
     overflow-y: auto;
     max-height: calc(100vh - 2em - 2em);
   }
+
+.author-avatar a:hover{
+  border-bottom: none;
+  text-decoration: none;
+}
