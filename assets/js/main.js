@@ -46,17 +46,33 @@ $(document).ready(function(){
     $(this).addClass('active');
   });
 
-  // if $('.page-item') {
-    
-  // }
   $('.page-item-one').on('')
 });
 
+$(document).ready(function(){
+  //index owl carousel
 
+$('.owl-carousel').owlCarousel({
+    items: 3,
+    autoPlay: 3000, 
+    center:false,
+    rtl:true,
+    loop:true,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1500:{
+            items:4
+        }
+    }
 
-
-
-
-
-
-
+});
+});
