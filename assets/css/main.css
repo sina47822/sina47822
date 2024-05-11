@@ -418,23 +418,28 @@ ul.d-flex.align-items-center{
     color: var(--bg-color);
   }
 }
-footer{
+/* footer{
   position: relative;
-}
+} */
 .back-to-top i{
   color: var(--bg-color);
   font-size: 20px;
 }
 .back-to-top a{
-  padding: 15px;
+  padding: 12px 15px 8px 15px;
   border-radius: 30px;
   background-color: var(--secondary-color);
-  position: absolute;
-  top: 80px;
-  right: 80px;
+  position: fixed;
+  opacity: 0.3;
+  bottom: 80px;
+  right: 40px;
+
 }
 .back-to-top a:hover{
   background-color: var(--primary-color);
+  opacity: 1;
+  scale: 1.1;
+
 }
 footer hr{
   background-color: #111321;
